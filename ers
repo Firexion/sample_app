@@ -1,0 +1,155 @@
+[33mcommit a1580ea11830f6c89fa1a791fdda81c813775a22[m
+Author: Sasha Perdue <firexion@gmail.com>
+Date:   Mon Mar 2 19:16:28 2015 +0000
+
+    Make a basic User model (including secure passwords)
+
+[33mcommit c16759c221ac3dad156eaa5bd43aeec7e03bca1a[m
+Author: Sasha Perdue <firexion@gmail.com>
+Date:   Mon Mar 2 19:13:11 2015 +0000
+
+    Add secure password to user
+
+[33mcommit db151f8acf7e24532e7e72d4b5f53d27d6cf29f8[m
+Author: Sasha Perdue <firexion@gmail.com>
+Date:   Mon Mar 2 19:06:18 2015 +0000
+
+    Add uniqueness to the users email
+
+[33mcommit 5f08ed23cc6cbe5fc2901def315d61989b62ab45[m
+Author: Sasha Perdue <firexion@gmail.com>
+Date:   Fri Feb 27 22:15:27 2015 +0000
+
+    add User model with validations
+
+[33mcommit 3614ba7a7889847e3a1a77ac2585dadc3d719b75[m
+Author: Sasha Perdue <firexion@gmail.com>
+Date:   Fri Feb 27 13:26:14 2015 +0000
+
+    Add Users model with initial signup page
+
+[33mcommit 950b5129de5c1fdf9751e4f99e1c01c4fb6d4064[m
+Author: Sasha Perdue <firexion@gmail.com>
+Date:   Thu Feb 26 21:59:12 2015 +0000
+
+    add integration test
+
+[33mcommit ec4035cef22d5e5ee557624bfb0e047f7ecf0f9c[m
+Author: Sasha Perdue <firexion@gmail.com>
+Date:   Thu Feb 26 21:45:16 2015 +0000
+
+    update routing
+
+[33mcommit b5726de8fa618b3a0061fb9cf291e92f5b93bedb[m
+Author: Sasha Perdue <firexion@gmail.com>
+Date:   Thu Feb 26 21:37:47 2015 +0000
+
+    add contact page
+
+[33mcommit 06c6ce3824825ee27ff5f889b40d4b084125e42b[m
+Author: Sasha Perdue <firexion@gmail.com>
+Date:   Thu Feb 26 21:16:34 2015 +0000
+
+    add color variables
+
+[33mcommit 0b775f6dbd87b52cd99cc1da710683b9b2039502[m
+Author: Sasha Perdue <firexion@gmail.com>
+Date:   Thu Feb 26 21:10:40 2015 +0000
+
+    update css to use sass structure
+
+[33mcommit a2c080f6cdd7927b334ef08a9af2fa032875abd0[m
+Author: Sasha Perdue <firexion@gmail.com>
+Date:   Thu Feb 26 19:59:45 2015 +0000
+
+    Add footer and move shim and header to partials
+
+[33mcommit ea38421456572d9e11510c1ba44bf54b520d2ea4[m
+Author: Sasha Perdue <firexion@gmail.com>
+Date:   Thu Feb 26 19:52:28 2015 +0000
+
+    Add bootstrap and starting css
+
+[33mcommit a8b7a248d376c350298b92e2498c63155b4b502a[m
+Author: Sasha Perdue <firexion@gmail.com>
+Date:   Wed Feb 25 17:15:27 2015 +0000
+
+    Make homepage use the default title
+
+[33mcommit 7d596e7967a4633a017aad0cb5515011b057435a[m
+Author: Sasha Perdue <firexion@gmail.com>
+Date:   Wed Feb 25 17:09:43 2015 +0000
+
+    Add a full_title helper method
+
+[33mcommit 6db3e08229a1056902363244d81901055e1c7a9f[m
+Author: Sasha Perdue <firexion@gmail.com>
+Date:   Tue Feb 24 19:25:53 2015 +0000
+
+    Update backtrace and create Guardfile
+
+[33mcommit 526aa38df572e09df789a3c6ca9aaf57e612aa04[m
+Author: Sasha Perdue <firexion@gmail.com>
+Date:   Tue Feb 24 18:57:20 2015 +0000
+
+    Update root route to home page
+
+[33mcommit fa77129fcbc3e633d995acebce4227f337ebb461[m
+Author: Sasha Perdue <firexion@gmail.com>
+Date:   Tue Feb 24 18:37:11 2015 +0000
+
+    Restore application layout
+
+[33mcommit 3f6587ef3bcd878b6fe49bc06e8bff490e4b66c4[m
+Author: Sasha Perdue <firexion@gmail.com>
+Date:   Tue Feb 24 18:24:23 2015 +0000
+
+    Make title dynamic
+
+[33mcommit 11451df806db6fd61539d95d89da49db8f9792ca[m
+Author: Sasha Perdue <firexion@gmail.com>
+Date:   Tue Feb 24 18:15:26 2015 +0000
+
+    Add title to pages
+
+[33mcommit 91bb57db92e0ce67b984d176ae1be73c8d9685d1[m
+Author: Sasha Perdue <firexion@gmail.com>
+Date:   Tue Feb 24 18:11:54 2015 +0000
+
+    Restore help page
+
+[33mcommit d0ca73a2d89b7156710c606702839508d8d59458[m
+Author: Sasha Perdue <firexion@gmail.com>
+Date:   Tue Feb 24 18:07:09 2015 +0000
+
+    Add about page
+
+[33mcommit c09850551053f0512524167431ab99826c59589f[m
+Author: Sasha Perdue <firexion@gmail.com>
+Date:   Tue Feb 24 17:44:39 2015 +0000
+
+    Update text for home and help pages
+
+[33mcommit 7065a36f6b7de57e594fc1a975e1ae6efd501ca7[m
+Author: Sasha Perdue <firexion@gmail.com>
+Date:   Tue Feb 24 13:40:47 2015 +0000
+
+    Add static pages controller
+
+[33mcommit fcaaefdabd03b42d269b6722b1e7155b344db197[m
+Author: Sasha Perdue <firexion@gmail.com>
+Date:   Mon Feb 23 21:54:44 2015 +0000
+
+    Add Hello
+
+[33mcommit d69344a2167f3b8a0b1a56f65533a58ac196a6aa[m
+Author: Sasha Perdue <firexion@gmail.com>
+Date:   Mon Feb 23 20:51:48 2015 +0000
+
+    Improve the README
+
+[33mcommit b26b8de03486e55d965398c0496f724fe11b8246[m
+Author: Sasha Perdue <firexion@gmail.com>
+Date:   Mon Feb 23 20:49:52 2015 +0000
+
+    Initialize repository
