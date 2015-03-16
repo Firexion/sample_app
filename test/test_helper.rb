@@ -21,11 +21,13 @@ class ActiveSupport::TestCase
                                   password: password,
                                   remember_me: remember_me }
     else
-      sessions[:user_id] = user.id
+      session[:user_id] = user.id
     end
   end
   
-  def integration_test?
-    defined?(post_via_redirect)
-  end
+  private
+    
+    def integration_test?
+      defined?(post_via_redirect)
+    end
 end
