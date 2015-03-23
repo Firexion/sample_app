@@ -18,3 +18,8 @@
 
 # Ignore Spring files.
 /spring/*.pid
+
+
+/mini_magick20150319-7115-1cald25.jpg
+/RackMultipart20150319-7115-1efz1i3.JPG
+/public/uploads/*
