@@ -34,9 +34,6 @@ class User < ActiveRecord::Base
     SecureRandom.urlsafe_base64
   end
   
-  
-  
-  
   def remember
     self.remember_token = User.new_token
     update_attribute(:remember_digest, User.digest(remember_token))
@@ -76,7 +73,7 @@ class User < ActiveRecord::Base
   end
   
   def feed
-    Micropost.where("user_id = ?", id)
+    Micropost.where("user_id IN (?) OR user_id = ?", following_ids, id)
   end
   
   def follow(other_user)
